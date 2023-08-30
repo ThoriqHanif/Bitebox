@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905770585402",
+    "project_id": "bitebox-e5485",
+    "storage_bucket": "bitebox-e5485.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905770585402:android:84b8bdf3dd21796b7a5403",
+        "android_client_info": {
+          "package_name": "com.thrq.bitebox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905770585402-gapavkdun9isur4tfdpt9fs7pqmet892.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxUxjcBYpiB9Y5_F3_h4Hhr3cdkK9dWwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905770585402-gapavkdun9isur4tfdpt9fs7pqmet892.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
