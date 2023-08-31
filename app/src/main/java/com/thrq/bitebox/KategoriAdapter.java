@@ -38,8 +38,11 @@ public class KategoriAdapter extends RecyclerView.Adapter<KategoriViewHolder>{
         holder.recCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, KategoriDetailActivity.class);
+                Intent intent = new Intent(context, DetailKategoriActivity.class);
                 intent.putExtra("Nama", dataList.get(holder.getAdapterPosition()).getDataNama());
+
+                intent.putExtra("Key",dataList.get(holder.getAdapterPosition()).getKey());
+                context.startActivity(intent);
             }
         });
     }
